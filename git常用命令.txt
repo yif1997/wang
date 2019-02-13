@@ -1,0 +1,25 @@
+git status  //获取git的改变状态
+
+git remote add origin https://github.com/lxxnb/HelloAndroid.git
+ remote origin already exists.
+//登陆账号
+git push --set-upstream origin master
+git add *
+
+git commit -am "first commit"
+	//全局配置
+git config --global user.email "18513426687@163.com"
+
+//新建分支
+git branch dsProject
+
+//提交
+git push --set-upstream origin dsProject
+
+
+如果你错误指令进到自己看不懂的页面了。点击Esc :q 回车即可
+
+
+1：add 添加
+2：commit提交
+3：push 推到远程仓库
